@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  background-color: #D6AE60;
+  font-family: 'Ubuntu', sans-serif;
+  color: #2E2C2D;
+}
+
+main {
+  padding-bottom: 1rem;
+}
+
+header {
+  padding-top: 2rem; 
+}
+
+.link {
+  color: #2E2C2D;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.link:after {
+  content: " ";
+  border-bottom: #2E2C2D solid 1px;
+  border-bottom-width: .2rem;
+  position: absolute;
+  width: 13rem;
+  right: 46px;
+  bottom: -5px;
+}
+
+.link:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 6rem;
+  transform: scaleY(1.5);
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+p:first-of-type {
+  padding-top: 2rem;
+}
+
+img {
+  margin-top: -3rem;
+  width: 25rem;
+  -webkit-transition: -webkit-transform 1.0s ease-in-out;
+  transition: transform 1.0s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.btn {
+  border-radius: .6rem;
+  padding: .8rem 3rem;
+  margin: .5rem 0;
+}
+
+.btn-primary {
+  background-color: #D5CCAE;
+  border-color: #000;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  border-color: #D5CCAE;
+  color: #D5CCAE;
+}
+
+.btn-secondary {
+  background-color: #DFD8C7;
+  border-color: #000;
+  color: #000;
+}
+
+.btn-secondary:hover {
+  background-color: #000;
+  border-color: #DFD8C7;
+  color: #DFD8C7;
+}
+
+.btn-dark {
+  background-color: #9A8F8D;
+  border-color: #000;
+  color: #000;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+  border-color: #9A8F8D;
+  color: #9A8F8D;
+}
+
+.button-container {
+  max-width: 20rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    text-align: right;
+  }
+
+  img {
+    margin-top: -8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  img {
+    width: 9rem;
+  }
+}
