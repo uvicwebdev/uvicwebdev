@@ -1,5 +1,7 @@
+/* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+/* Main */
 body {
   background-color: #D6AE60;
   font-family: 'Ubuntu', sans-serif;
@@ -10,10 +12,12 @@ main {
   padding-bottom: 1rem;
 }
 
+/* Header */
 header {
   padding-top: 2rem; 
 }
 
+/* Links */
 .link {
   color: #2E2C2D;
   position: relative;
@@ -35,6 +39,7 @@ header {
   text-decoration: none;
 }
 
+/* Typography */
 h1 {
   color: #000;
   text-align: center;
@@ -52,6 +57,7 @@ p:first-of-type {
   padding-top: 2rem;
 }
 
+/* Images */
 img {
   margin-top: -3rem;
   width: 25rem;
@@ -64,6 +70,7 @@ img:hover {
   transform: rotate(360deg);
 }
 
+/* Buttons */
 .btn {
   border-radius: .6rem;
   padding: .8rem 3rem;
@@ -115,27 +122,33 @@ img:hover {
   font-size: 1rem;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 992px) {
+  /* Typography */
   h1 {
     font-size: 4rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  /* Typography */
   h1 {
     text-align: right;
   }
 
+  /* Images */
   img {
     margin-top: -8rem;
   }
 }
 
 @media only screen and (max-width: 576px) {
+  /* Typography */
   h1 {
     font-size: 4rem;
   }
-
+  
+  /* Images */
   img {
     width: 9rem;
   }

@@ -2,7 +2,11 @@
 
 AE330 - Fall 2018
 
-This is a website created for an assignment. 
+This is a website created for a AE330 assignment.
+
+![Promo of Website][promo]
+
+[promo]: ./images/promo.png "Website Design"
 
 ## Built With
 
