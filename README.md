@@ -8,4 +8,4 @@
 
 * [Bootstrap 4](https://getbootstrap.com/)
 * [Google Font](https://fonts.google.com/)
-* [Surge](https://surge.sh/)
+* [GitHub Pages](https://pages.github.com/)
